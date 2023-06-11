@@ -17,3 +17,17 @@ body{
     height: 100px;
     margin: 5px;
 }
+
+.navbar-brand {
+ padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Designer Name*/
+    font-family: 'Besley', serif;
+    color: #282828;
+    font-size: 2em;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus, .navbar-brand a:link {
+    text-decoration: none;
+}
