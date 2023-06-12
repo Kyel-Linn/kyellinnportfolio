@@ -12,23 +12,26 @@
 </head>
 <body>
     <header>
-        <nav id="header-nav" class="navbar navbar-default">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container">
-                <div class="navbar-header">
-                    <a href="index.html" class="float-start">
-                        <div class="d-none d-md-block d-lg-block" id="logo-img" alt="logo image"></div>
-                    </a>
-                    <div class="navbar-brand">
-                        <a href="index.html"><h1>Kyel Linn</h1></a>
-                    </div>
-                
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" 
-                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation" class="d-lg-none">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  
-        </nav>
+                <a class="navbar-brand" href="index.html">
+                    <img src="Images/Logo-white.png" alt="Kyel Linn" width="50" height="50">
+                  Kyel Linn</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenuContent" aria-controls="navbarMenuContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarMenuContent">
+                <ul class="navbar-nav pull-right">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="AboutMe.html">About Me</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
