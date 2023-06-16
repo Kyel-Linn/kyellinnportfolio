@@ -1,7 +1,7 @@
 body{
     font-size: 16px;
     color: #282828;
-    background-color: #cd6e6e;
+    background-color: #f7f7f7;
     font-family: 'Poppins', sans-serif;
 }
 /** HEADER **/
@@ -30,4 +30,31 @@ body{
 
 .navbar-brand a:hover, .navbar-brand a:focus, .navbar-brand a:link {
     text-decoration: none;
+}
+
+.hero-img {
+    float: left;
+    max-width: 30%;
+    height: auto;
+    margin-right: 8%;
+}
+
+.hero-text {
+    font-weight:bold;
+    color: #282828;
+    font-size: 1.8rem;
+    margin-top: 8%;
+}
+
+#info {
+    font-size: 1.2rem;
+    font-weight: bold;
+    }
+
+.btn-primary {
+   background: #D82424; 
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    background-color: #AB1F1F;
 }
