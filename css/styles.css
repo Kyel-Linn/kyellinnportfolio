@@ -78,3 +78,17 @@ body{
 .img-thumbnail {
     border: none;
 }
+
+.btn-secondery {
+    background: #D82424; 
+    border: #D82424;
+    align-self:center;
+    margin-top: 10%;
+    color: #fff;
+ }
+ 
+ .btn-secondery:hover, .btn-secondery:focus, .btn-secondery:active, .btn-secondery.active, .open>.dropdown-toggle.btn-primary {
+     background-color: #AB1F1F;
+     border: #AB1F1F;
+     color: #fff;
+ }
