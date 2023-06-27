@@ -89,7 +89,7 @@ body{
     size: 1.2rem;
  }
 
- .sub-title {
+ h2, .sub-title {
     text-align: center;
     font-weight: bold;
     font-size: 2 rem;
@@ -106,7 +106,7 @@ body{
 
 /** footer **/
 .copyright {
-    color: #282828;
+    color: #282828aa;
     font-size: 0.8rem;
     margin: 2%;
     float: left;
@@ -116,4 +116,14 @@ body{
     float: right;
     font-size: 0.8rem;
     margin: 2%;
+    color: #282828aa;
+}
+/** Footer end **/
+
+.figure {
+    margin-top: 5%;
+}
+
+.figure-caption {
+    color: #282828;
 }
