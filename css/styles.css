@@ -91,6 +91,7 @@ body{
 
  p.card-text {
     color: #282828;
+    text-align: center;
  }
 
  h2, .sub-title {
@@ -147,7 +148,7 @@ h3 {
     margin-left: auto;
     margin-right: auto;
 }
-
+ 
 .image-container {
     text-align: center;
 }
@@ -156,3 +157,47 @@ h3 {
     margin-right: 2%;
     margin-bottom: 5%;
 }
+.zoomimg {transition: transform ease-in-out 0.3s;}
+
+.zoomimg:hover {
+    transform: scale(1.05);
+  }
+
+/* For Full IMAGE ON SCREEN */
+#lightbox {
+    position: fixed; z-index: 999;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+
+    background: rgba(0, 0, 0, 0.5);
+   
+    /* (A3) CENTER IMAGE ON SCREEN */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    /* (A4) HIDDEN BY DEFAULT */
+    visibility: hidden;
+    opacity: 0;
+   
+    /* (A5) SHOW/HIDE ANIMATION */
+    transition: opacity ease 0.4s;
+  }
+   
+  /* (A6) TOGGLE VISIBILITY */
+  #lightbox.show {
+    visibility: visible;
+    opacity: 1;
+  }
+   
+  /* (B) LIGHTBOX IMAGE */
+  #lightbox img {
+    /* (B1) DIMENSIONS */
+    width: 80%;
+    height: auto;
+   
+    /* (B2) IMAGE FIT */
+    /* contain | cover | fill | scale-down */
+    object-fit: cover;
+  }
+   
