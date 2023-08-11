@@ -25,7 +25,12 @@ body{
 .navbar-brand { /* Designer Name*/
     font-family: 'Besley', serif;
     color: #282828;
-    font-size: 2em;
+    font-size: 3rem;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #282828;
+    font-weight: bolder;
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus, .navbar-brand a:link {
